@@ -1,0 +1,15 @@
+[package]
+edition = "2024"
+name = "stub-macros"
+publish = false
+version = "0.1.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1"
+syn = { version = "2", features = ["full"] }
+
+[lints]
+workspace = true
